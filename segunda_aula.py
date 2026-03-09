@@ -46,8 +46,11 @@ print(milimetros)
 
 
 #6. Escreva um programa que leia a quantidade de dias, horas, minutos e segundos do usuário. Calcule o total em segundos
-dias = input("Dias em segundos:")
-dias
+dias = input("Dias:")
+horas = int(input("Horas:"))
+minutos = int(input("Minutos: "))
+segundos = int(input(("Segundos: ")))
+
 
 #7. Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
 
