@@ -50,6 +50,7 @@ dias = input("Dias:")
 horas = int(input("Horas:"))
 minutos = int(input("Minutos: "))
 segundos = int(input(("Segundos: ")))
+print(dias * 24 * 60 * 60) + (horas * 60 * 60) +
 
 
 #7. Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
