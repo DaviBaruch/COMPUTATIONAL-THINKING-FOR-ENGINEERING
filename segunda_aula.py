@@ -50,7 +50,7 @@ dias = input("Dias:")
 horas = int(input("Horas:"))
 minutos = int(input("Minutos: "))
 segundos = int(input(("Segundos: ")))
-print(dias * 24 * 60 * 60) + (horas * 60 * 60) +
+print(dias * 24 * 60 * 60) + (horas * 60 * 60)
 
 
 #7. Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
@@ -63,7 +63,7 @@ novo_salario = salario + aumento
 print("Aumento:", aumento)
 print("Novo salario:", novo_salario)
 
-print("Total em segundos:", total)
+print("Total em segundos:")
 #8. Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
 preco = float(input("Digite o preço: "))
 desconto = float(input("Digite o percentual de desconto: "))
@@ -108,3 +108,4 @@ salario = float(input("Digite o salario: "))
 novo = salario + salario * 0.35
 
 print("Novo salario:", novo)
+
