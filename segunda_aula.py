@@ -54,12 +54,57 @@ print(dias * 24 * 60 * 60) + (horas * 60 * 60) +
 
 
 #7. Faça um programa que calcule o aumento de um salário. Ele deve solicitar o valor do salário e a porcentagem do aumento. Exiba o valor do aumento e do novo salário.
+salario = float(input("Digite o salario: "))
+porcentagem = float(input("Digite a porcentagem de aumento: "))
 
+aumento = salario * porcentagem / 100
+novo_salario = salario + aumento
+
+print("Aumento:", aumento)
+print("Novo salario:", novo_salario)
+
+print("Total em segundos:", total)
 #8. Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
+preco = float(input("Digite o preço: "))
+desconto = float(input("Digite o percentual de desconto: "))
 
+valor_desconto = preco * desconto / 100
+preco_final = preco - valor_desconto
+
+print("Desconto:", valor_desconto)
+print("Preço a pagar:", preco_final)
 #9. Escreva um programa que calcule o tempo de uma viagem de carro. Pergunte a distância a percorrer e a velocidade média esperada para a viagem.
+distancia = float(input("Digite a distancia: "))
+velocidade = float(input("Digite a velocidade media: "))
 
+tempo = distancia / velocidade
+
+print("Tempo da viagem:", tempo, "horas")
 #10. Escreva um programa que converta uma temperatura digitada em ºC em ºF. A fórmula para essa conversão é F = ((9 x C) / 5) + 32
+c = float(input("Digite a temperatura em C: "))
 
+f = (9 * c / 5) + 32
+
+print("Temperatura em F:", f)
 
 #11. Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por km rodado
+km = float(input("Km percorridos: "))
+dias = int(input("Dias alugados: "))
+
+preco = dias * 60
+preco = preco + km * 0.15
+
+print("Preço a pagar:", preco)
+#12
+x = int(input("Digite x: "))
+y = int(input("Digite y: "))
+
+z = (x**2 + y**2) / (x - y)**2
+
+print("Valor de z:", z)
+#13
+salario = float(input("Digite o salario: "))
+
+novo = salario + salario * 0.35
+
+print("Novo salario:", novo)
