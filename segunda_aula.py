@@ -85,7 +85,7 @@ c = float(input("Digite a temperatura em C: "))
 
 f = (9 * c / 5) + 32
 
-print("Temperatura em F:", f)
+print(f"Temperatura em F:{f}")
 
 #11. Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por km rodado
 km = float(input("Km percorridos: "))
@@ -101,7 +101,7 @@ y = int(input("Digite y: "))
 
 z = (x**2 + y**2) / (x - y)**2
 
-print("Valor de z:", z)
+print(f"Valor de z:{z}")
 #13
 salario = float(input("Digite o salario: "))
 
