@@ -60,12 +60,10 @@ porcentagem = float(input("Digite a porcentagem de aumento: "))
 aumento = salario * porcentagem / 100
 novo_salario = salario + aumento
 
-total = novo_salario
-
 print("Aumento:", aumento)
 print("Novo salario:", novo_salario)
 
-print(f"Total em segundos:{total}")
+print("Total em segundos:")
 #8. Faça um programa que solicite o preço de uma mercadoria e o percentual de desconto. Exiba o valor do desconto e o preço a pagar.
 preco = float(input("Digite o preço: "))
 desconto = float(input("Digite o percentual de desconto: "))
@@ -87,7 +85,7 @@ c = float(input("Digite a temperatura em C: "))
 
 f = (9 * c / 5) + 32
 
-print(f"Temperatura em F:{f}")
+print("Temperatura em F:", f)
 
 #11. Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por km rodado
 km = float(input("Km percorridos: "))
@@ -103,10 +101,11 @@ y = int(input("Digite y: "))
 
 z = (x**2 + y**2) / (x - y)**2
 
-print(f"Valor de z:{z}")
+print("Valor de z:", z)
 #13
 salario = float(input("Digite o salario: "))
 
 novo = salario + salario * 0.35
 
 print("Novo salario:", novo)
+
