@@ -1,5 +1,3 @@
-from segunda_aula import desconto
-
 print("Olá Davi Baruch, você tem 19 anos anos.")
 
 operacao = input("Escolha a operação que você deseja(+ - * /")
