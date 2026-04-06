@@ -39,19 +39,21 @@ while x <= fim:
     print(x)
     x += 1
 
-# fim = int(input("Escolha o ultimo número: "))
-# x = 1
-# while x <= fim:
-#     x % 0
-#     print(x)
-#     x += 1
+fim = int(input("Escolha o ultimo número: "))
+x = 1
+while x <= fim:
+    print(x)
+    x += 1
+
 #5° exercicio
+
 x = 3
 while x <= 30:
     print(x)
     x += 3
 
 # 6° exercicio
+
 fim = int(input(""))
 num = int(input("Tabuada de: "))
 x = 0
@@ -59,3 +61,12 @@ while x <= 10:
     print(f"{num} x {x} = {num * x}")
     x += 1
 
+#exercicio extra
+
+soma = 0
+x = 0
+while x < 3:
+    x += 1
+    check = float(input(f"Nota do Checkpoint {x}:"))
+    soma += check
+print(f"Media = {soma/x}")
