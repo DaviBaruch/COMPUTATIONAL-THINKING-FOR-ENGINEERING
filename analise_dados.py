@@ -21,3 +21,5 @@ df.to_csv('vendas_teste.csv', index=False)
 
 print("Dataset criado com sucesso!")
 print(df.head())
+print("\nFaturamento total por produto:")
+print(df.groupby('Produto')['Total'].sum())
