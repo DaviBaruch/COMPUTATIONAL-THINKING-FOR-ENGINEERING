@@ -23,7 +23,7 @@ while True:
         print("Valor inválido! Digite novamente.")
 
 
-codigo = int((input"Codigo do produto for 0 para exibir"))
+codigo = int(input("Codigo do produto for 0 para exibir"))
 
 #Exercicio 11 do PDF: Aula 04 GRAD_Computational Thinking for Engineering.pdf
 
