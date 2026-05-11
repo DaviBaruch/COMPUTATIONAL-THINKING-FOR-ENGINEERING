@@ -11,6 +11,6 @@ x = 0
 while x < 4:
     soma = soma + notas_check[x]
     x = x + 1
-
-    print(f"Média = {soma/4}")
-    
+    #print(f"Média = {soma/4}")
+    #print(f"Média = {soma/[x]}")
+    print(f"Média = {soma/len(notas_check)}")
