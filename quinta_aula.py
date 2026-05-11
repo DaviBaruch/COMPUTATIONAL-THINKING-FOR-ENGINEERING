@@ -30,3 +30,7 @@ while True:
     if quant == len(notas_check):
         break
     print(f"Média = {soma/len(notas_check)}")
+
+#sort ordena a lista em ordem crescente e usando o sort(reverse=True) fica decrescente
+#min() mostra a menor nota da lista, tuplas dicionarios e strings
+#max() mostra a maior nota da lista, tuplas dicionarios e strings
