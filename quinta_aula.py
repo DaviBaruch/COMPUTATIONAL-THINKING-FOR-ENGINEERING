@@ -36,3 +36,4 @@ while True:
 #sort ordena a lista em ordem crescente e usando o sort(reverse=True) fica decrescente
 #min() mostra a menor nota da lista, tuplas dicionarios e strings
 #max() mostra a maior nota da lista, tuplas dicionarios e strings
+#abs() Retorna o valor absoluto de um número.
