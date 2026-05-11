@@ -14,3 +14,19 @@ while x < 4:
     #print(f"Média = {soma/4}")
     #print(f"Média = {soma/[x]}")
     print(f"Média = {soma/len(notas_check)}")
+
+
+# Sei lá o que ela quer fazer aqui eu perdi essa parte kkk ela quer inputar a nota 
+
+notas_check = []
+soma = 0
+x = 0
+quant = int(input("Quantidade de alunos"))
+while True:
+    nota = float(input(f"Checkpoint aluno {x+1} = "))
+    notas_check.append(nota)
+    soma += notas_check[x]
+    x += 1
+    if quant == len(notas_check):
+        break
+    print(f"Média = {soma/len(notas_check)}")
