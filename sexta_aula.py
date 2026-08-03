@@ -17,3 +17,6 @@ for i in range(10):
 for i in range(5, 8):
     print(i)
 
+#exercicios
+# 1. Altere o programa do exemplo anterior de formar a imprimir o menor elemento da lista.
+
