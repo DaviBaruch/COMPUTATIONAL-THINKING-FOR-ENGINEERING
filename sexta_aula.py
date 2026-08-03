@@ -9,4 +9,11 @@ for i in compras:
 else:
     print("Produto não encontrado")
 
-#
+#Usando Range
+for i in range(10):
+    print(i)
+
+
+for i in range(5, 8):
+    print(i)
+
