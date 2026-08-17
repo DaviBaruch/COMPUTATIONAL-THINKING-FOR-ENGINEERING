@@ -27,3 +27,35 @@ lista_alunos = [
 print(lista_alunos[0]["Nome"], lista_alunos [0]["Nota"])
 for aluno in lista_alunos:
     print(aluno["Nome"], aluno["Nota"] )
+
+#Desafio:
+#Crie um dicionario para representar um sensor contendo: id, tipo, valor e unidade;
+#todas as informação dos sensores;
+#Alternar o valor da leitura;
+#informar ATENÇÂO caso a nova temperatura seja maior que 37°C;
+#Caso contrario, infomar NORMAL.
+
+sensor = {"id": 1,
+            "tipo": "Temperatura",
+            "valor": 36.6,
+            "unidade": "°C"
+            }
+
+print("Informações do sensor:")
+print(f"ID: {sensor['id']}")
+print(f"Tipo: {sensor['tipo']}")
+print(f"Valor: {sensor['valor']}{sensor['unidade']}")
+print(f"Unidade: {sensor['unidade']}")
+
+# Alternar o valor da leitura
+nova_temperatura = float(input("\nDigite a nova temperatura: "))
+
+sensor["valor"] = nova_temperatura
+
+print(f"\nNova temperatura: {sensor['valor']}{sensor['unidade']}")
+
+# Verificar temperatura
+if sensor["valor"] > 37:
+    print("ATENÇÃO")
+else:
+    print("NORMAL")
