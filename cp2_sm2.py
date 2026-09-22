@@ -1,4 +1,4 @@
-#Guilherme Rodrigues de Souza RM573803, #Davi Baruch Gutierrez Varas RM572086
+#Guilherme Rodrigues de Souza e Davi Baruch Gutierrez Varas
 
 frutas = ["pera", "morango", "maça", "melancia"]
 cores = ["preto", "laranja", "verde", "marrom"]
